@@ -1,0 +1,45 @@
+.calculator {
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 10px;
+    width: 300px;
+    background-color: #004d4d;
+  }
+  .calculator-screen {
+    width: 99%;
+    height: 53px;
+    border-radius: 7%;
+    background-color: #fff;
+    border: none;
+    text-align: left;
+    font-size: 29px;
+    margin-bottom: 7px;
+  }
+  .ACbutton{
+    width: 70px;
+    height: 45px;
+    border-radius: 20%;
+    background-color: #7FFFD4;
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .Obutton{
+    width: 70px;
+    height: 45px;
+    border-radius: 20%;
+    background-color: #FFFFF0;
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .button {
+    width: 70px;
+    height: 45px;
+    border-radius: 20%;
+    background-color: #ccddff;
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+  }

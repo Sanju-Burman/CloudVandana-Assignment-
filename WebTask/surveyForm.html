@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="web2.css">
+
+</head>
+<body>
+    <div class "container">
+  <h1>Survey Form</h1>
+  <form action="">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+    <div class="form-group">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+    <div class="form-group">
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">-- Select Country --</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender:</label>
+      <label for="genderMale">Male</label>
+      <input type="radio" id="genderMale" name="gender[]" value="Male" required>
+      <label for="genderFemale">Female</label>
+      <input type="radio" id="genderFemale" name="gender[]" value="Female" required>
+      <label for="genderOther">Other</label>
+      <input type="radio" id="genderOther" name="gender[]" value="Other" required>
+    </div>
+    <div class="form-group">
+      <label for="profession">Profession:</label>
+      <input type="text" id="profession" name="profession" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="mobileNumber">Mobile Number:</label>
+      <input type="tel" id="mobileNumber" name="mobileNumber" required>
+    </div>
+    <button type="submit" id="submitBtn">Submit</button>
+    <button type="reset" id="resetBtn">Reset</button>
+  </form>
+</div>
+  <script src="web2.js"></script>
+</body>
+</html>
